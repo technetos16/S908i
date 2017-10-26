@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">S908i Vibration Meter</string>
+    <string name="activity_name">S908i Vibration Meter</string>
+    <string name="action_connect">Connect</string>
+    <string name="action_disconnect">Disconect</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="string_back">Back</string>
+	<string name="string_refresh">Refresh</string>
+	<string name="bearing_stat">Bearing Defect：</string>
+	<string name="displacement">Displacement(P-P): </string>
+	<string name="read">Read</string>
+	<string name="acceleration">Acceleration(Peak): </string>
+	<string name="velocity">Velocity(RMS): </string>
+	<string name="envelope">High Freq Envelope:</string>
+	<string name="ble_search_name">Please Click on the Device to Connect</string>
+	<string name="max">Max:</string>
+	<string name="min">Min:</string>
+	<string name="avg">Avg:</string>
+	<string name="title">Confirm</string>
+	<string name="open">Please confirm to open</string>
+	<string name="device_choose">Machine Classification</string>
+	<string name="bearing_choose">Support Classification</string>
+	<string-array name="device">
+		<item >1: M/C w/ power>300kW; ECE M/C w/ shaft height H>=315mm. </item>
+		<item >2: 15kW&lt;M/C Power&lt;300kW; ECE M/C shaft height160mm&lt;H&lt;315mm. </item>
+		<item >3: Pumps W/ multivane impeller &amp; separate driver; Power&gt;15kW. </item>
+		<item >4: Pumps W/ multivane impeller &amp; integrated driver; Power&gt;15kW. </item>
+		<item >Customized.</item>
+	</string-array>
+	<string-array name="bearing">
+		<item >Rigid: Min natural Freq of M/C &amp; SUPT SYS&gt; rotational Freq*125%</item>
+		<item >Flexible: All the others;</item>
+	</string-array>
+	<string name="measure">Meas</string>
+	<string name="stop">Stop</string>
+	<string name="measure_all">Meas All</string>
+	<string name="stop_all">Stop All</string>
+	<string-array name="data">
+		<item >Dis</item>
+		<item >Acc</item>
+		<item >Vel</item>
+		<item >Env</item>
+	</string-array>
+	<string name="acc">Acc</string>
+	<string name="dis">Dis</string>
+	<string name="vel">Vel</string>
+	<string name="env">Env</string>
+	<string name="search_file">Choose File</string>
+</resources>

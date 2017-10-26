@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">S908i测振仪</string>
+    <string name="activity_name">S908i测振仪</string>
+    <string name="action_connect">选择设备</string>
+    <string name="action_disconnect">断开设备</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="string_back">返回</string>
+	<string name="bearing_stat">滚动轴承状态： </string>
+	<string name="read">回放</string>
+	<string name="displacement">位移（峰峰值）： </string>
+	<string name="acceleration">加速度（峰值）： </string>
+	<string name="velocity">速度（有效值）： </string>
+	<string name="envelope">高频加速度包络： </string>
+	<string name="string_refresh">刷新</string>
+	<string name="ble_search_name">请点击要连接的设备</string>
+	<string name="device_choose">设备类型</string>
+	<string name="bearing_choose">支撑类型</string>
+	<string name="title">提示</string>
+	<string name="open">确定打开</string>
+	<string-array name="device">
+		<item >1: 功率300KW&lt;P&lt;50MW的大型机组; 转轴高度H≥315mm的电机</item>
+		<item >2: 功率15KW&lt;P&lt;300KW的中型机器; 转轴高度160mm≤H＜315mm</item>
+		<item >3: 功率&gt;15KW, 叶轮与原动机分轴的泵(离心式、混流式或轴流式)</item>
+		<item >4: 功率&gt;15KW, 叶轮与原动机共轴(一体)的泵(离心式、混流式或轴流式)</item>
+		<item >自定义设备</item>
+	</string-array>
+	<string-array name="bearing">
+		<item >刚性:在测量方向,机器与支撑系统组合的最低自振频率大于旋转频率的25%</item>
+		<item >柔性:所有的其他支承系统,如安装在减震垫或铁架上的电机</item>
+	</string-array>
+	<string name="measure">测量</string>
+	<string name="stop">停止</string>
+	<string name="max">最大:</string>
+	<string name="min">最小:</string>
+	<string name="avg">平均:</string>
+	<string name="measure_all">全部测量</string>
+	<string name="stop_all">停止测量</string>
+	<string-array name="data">
+		<item >位</item>
+		<item >加</item>
+		<item >速</item>
+		<item >包</item>
+	</string-array>
+	<string name="acc">加速度</string>
+	<string name="dis">位移</string>
+	<string name="vel">速度</string>
+	<string name="env">包络</string>
+	<string name="search_file">选择文件</string>
+</resources>
